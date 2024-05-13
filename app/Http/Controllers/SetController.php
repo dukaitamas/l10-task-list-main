@@ -15,6 +15,7 @@ class SetController extends Controller
     public function index()
     {
         // return Set::all();
+        
         return SetResource::collection(Set::all());
     }
 
